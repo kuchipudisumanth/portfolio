@@ -1,0 +1,491 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+.main-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.intro-section {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+}
+
+.intro-text {
+    flex: 1;
+}
+
+.hello {
+    font-weight: 300;
+    font-size: 36px;
+    color: #666666;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.resume-button {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+}
+
+.social-links {
+    display: flex;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+.about-me-section {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 2px solid #e0e0e0;
+    background-color: #f7f9fc;
+}
+
+.about-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.details-section {
+    padding: 40px;
+}
+
+.details-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.details-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.education,
+.experience {
+    margin-bottom: 40px;
+}
+
+/* Existing CSS code remains unchanged */
+
+.projects {
+    padding: 40px;
+    text-align: center; /* Center align the content */
+}
+
+.projects h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 40px;
+    display: flex; /* Display projects as flex containers */
+    justify-content: center; /* Center align items horizontally */
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 800px; /* Set maximum width to prevent projects from stretching too much */
+}
+
+.project-image {
+    flex: 1;
+    padding-right: 20px; /* Add some spacing between image and details */
+}
+
+.project-image img {
+    width: 100%; /* Ensure image takes up full width of its container */
+    border-radius: 20px; /* Curved corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.project-details {
+    flex: 2;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.github-button:hover {
+    background-color: #0056b3;
+}
+
+
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.github-button:hover {
+    background-color: #0056b3;
+}
+
+/* Existing CSS code remains unchanged */
+
+.certifications {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.certifications h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.certification {
+    margin-bottom: 40px;
+}
+
+.certification h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.certification p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.certification .show-credential {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.certification .learning {
+    font-style: italic;
+    color: #666666;
+}
+
+
+/* Existing CSS code remains unchanged */
+
+.skills-section {
+    padding: 40px;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+}
+
+.skill-category {
+    flex: 1;
+}
+
+.skill-category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skill-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-category ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+/* Existing CSS code remains unchanged */
+
+.thank-you-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.thank-you-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.thank-you-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.get-in-touch-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.get-in-touch-button:hover {
+    background-color: #0056b3;
+}
+
+.skills-section {
+    padding: 40px;
+}
+
+.skills-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+}
+
+.skill-category {
+    flex: 1;
+}
+
+.skill-category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skill-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-category ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+    /* Add transition effect for smooth color change */
+}
+
+.skill-category ul li:hover {
+    color: #8c5484;
+    /* Change text color on hover */
+}
+
+
+
+/* Existing CSS code remains unchanged */
+
+.skills-section {
+    padding: 40px;
+    text-align: center;
+    /* Center align the content */
+}
+
+.skills-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line if needed */
+    justify-content: center;
+    /* Center align items horizontally */
+}
+
+.skill-category {
+    flex: 1;
+    margin: 0 20px;
+    /* Add some spacing between categories */
+}
+
+.skill-category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skill-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-category ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.certifications {
+    padding: 40px;
+    text-align: center;
+    /* Center align the content */
+}
+
+.certifications h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.certification h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.certification p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.certification .show-credential {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.certification .learning {
+    font-style: italic;
+    color: #666666;
+}
+
+/* Existing CSS code remains unchanged */
+
+.projects {
+    padding: 40px;
+    text-align: center;
+    /* Center align the content */
+}
+
+.projects h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 40px;
+    display: inline-block;
+    /* Display projects side by side */
+    text-align: left;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.github-button:hover {
+    background-color: #0056b3;
+}
